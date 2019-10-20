@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/setting_photo"
+        android:layout_width="220dp"
+        android:layout_height="230dp"
+        android:src="@drawable/profile_image"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <EditText
+
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:drawableStart="@drawable/edit_profile"
+        android:layout_below="@id/setting_photo"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/inputs"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:hint="UserName..."
+        android:drawableLeft="@drawable/edit_profile" />
+
+    <EditText
+        android:id="@+id/user_status"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/user_name"
+        android:drawableStart="@drawable/edit_status"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/inputs"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="I am Available Now .."
+
+
+        />
+
+    <Button
+        android:id="@+id/update_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_status"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/buttons"
+        android:text="Update"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "477836651468",
+    "firebase_url": "https://fedora-3debb.firebaseio.com",
+    "project_id": "fedora-3debb",
+    "storage_bucket": "fedora-3debb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:477836651468:android:f322f0269db44cf0",
+        "android_client_info": {
+          "package_name": "com.juba.fedora"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "477836651468-60c2a9sis6llk17lov805v24ehmp16os.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.juba.fedora",
+            "certificate_hash": "18d123839c05a3977d719377f6355618d1a4bfef"
+          }
+        },
+        {
+          "client_id": "477836651468-rim9qs2kdghqcsapea5qer1uj4hjarit.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVM67NtwmW4z8sM26N6pPtwemhTPot1vI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "477836651468-rim9qs2kdghqcsapea5qer1uj4hjarit.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
